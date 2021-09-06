@@ -12,9 +12,7 @@ const vfile = require('to-vfile');
 const selectAll = require('unist-util-select').selectAll;
 const wrap = require('./wrap');
 
-const indexOfStuffem = process.argv.findIndex((x) => x === 'stuffem');
-console.log('process.argv', process.argv)
-console.log('indexOfStuffem', indexOfStuffem)
+const indexOfStuffem = process.argv.findIndex((x) => x.includes('stuffem'));
 const inputFileName = process.argv.slice(indexOfStuffem + 1)[0];
 
 function noop() {}
@@ -47,11 +45,8 @@ async function toString(asyncIter) {
   return result;
 }
 
-console.log('input', inputFileName)
 const INPUT_PATH = path.join(process.cwd(), inputFileName || 'README.md');
-console.log('INPUT_PATH', INPUT_PATH);
 const OUTPUT_PATH = process.cwd();
-console.log('OUTPUT_PATH', OUTPUT_PATH);
 const TOC = 'Table of contents';
 
 async function main() {
