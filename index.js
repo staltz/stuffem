@@ -13,6 +13,8 @@ const selectAll = require('unist-util-select').selectAll;
 const wrap = require('./wrap');
 
 const indexOfStuffem = process.argv.findIndex((x) => x === 'stuffem');
+console.log('process.argv', process.argv)
+console.log('indexOfStuffem', indexOfStuffem)
 const inputFileName = process.argv.slice(indexOfStuffem + 1)[0];
 
 function noop() {}
