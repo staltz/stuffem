@@ -1,6 +1,6 @@
 {
   "name": "stuffem",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "I has bunch of markdown. Stuff'em into one HTML plis",
   "bin": "index.js",
   "files": [
