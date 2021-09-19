@@ -16,3 +16,9 @@ where `index.md`:
 Out you get an `index.html`.
 
 By the way, supports mermaidjs.
+
+```mermaid
+flowchart TD
+    Start --> Stop
+```
+
