@@ -4,7 +4,9 @@
   "description": "I has bunch of markdown. Stuff'em into one HTML plis",
   "bin": "index.js",
   "files": [
-    "*.js"
+    "*.js",
+    "package.json.license",
+    "LICENSES/*"
   ],
   "dependencies": {
     "remark": "13.0.0",
@@ -21,7 +23,7 @@
   "engines": {
     "node": ">=12"
   },
-  "author": "Andre Staltz <contact@staltz.com>",
+  "author": "Andre 'Staltz' Medeiros <contact@staltz.com>",
   "contributors": [
     "Alexander Cobleigh <cblgh@cblgh.org>"
   ],

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Andre 'Staltz' Medeiros
+//
+// SPDX-License-Identifier: GPL-2.0-only
+
 const header = `<html>
 <head>
 <style>

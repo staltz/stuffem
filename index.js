@@ -1,4 +1,9 @@
 #!/usr/bin/env node
+
+// SPDX-FileCopyrightText: 2021 Andre 'Staltz' Medeiros
+//
+// SPDX-License-Identifier: GPL-2.0-only
+
 const fs = require('fs');
 const path = require('path');
 const remark = require('remark');
