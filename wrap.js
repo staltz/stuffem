@@ -42,7 +42,7 @@ pre, code {
 }
 </style>
 </head>
-<script crossorigin src="https://unpkg.com/mermaid@8.9.1/dist/mermaid.min.js"></script>
+<script crossorigin src="https://unpkg.com/mermaid@8.13.4/dist/mermaid.min.js"></script>
 <body>
 `
 
